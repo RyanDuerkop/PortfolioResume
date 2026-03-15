@@ -57,8 +57,6 @@ body {
   color: #4da3ff;
 }
 
-/* HERO */
-
 .hero {
   position: relative;
   min-height: 100vh;
@@ -67,8 +65,6 @@ body {
   padding: 0 8%;
   overflow: hidden;
 }
-
-/* Video background */
 
 .background-video {
   position: absolute;
@@ -79,8 +75,6 @@ body {
   object-fit: cover;
   z-index: -2;
 }
-
-/* Dark overlay */
 
 .hero::before {
   content: "";
@@ -139,8 +133,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* SECTIONS */
-
 section {
   padding: 90px 8%;
 }
@@ -152,8 +144,6 @@ section {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
-/* PROJECTS */
 
 #projects {
   background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
@@ -201,8 +191,6 @@ section {
   margin-bottom: 22px;
 }
 
-/* SKILLS */
-
 #skills {
   background: #101a2b;
 }
@@ -225,8 +213,6 @@ section {
   margin-bottom: 12px;
   font-size: 1.3rem;
 }
-
-/* CONTACT */
 
 #contact {
   background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
@@ -263,16 +249,12 @@ section {
   object-fit: contain;
 }
 
-/* FOOTER */
-
 footer {
   background: #050a12;
   text-align: center;
   padding: 22px;
   color: #c5cfdb;
 }
-
-/* RESPONSIVE */
 
 @media (max-width: 992px) {
   .projects-container {
